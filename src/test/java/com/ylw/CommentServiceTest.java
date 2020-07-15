@@ -2,7 +2,6 @@ package com.ylw;
 
 import com.ylw.po.Comment;
 import com.ylw.service.CommentService;
-import javafx.application.Application;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +13,7 @@ import java.time.LocalDateTime;
 import java.util.List;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = ArticleApplication.class)
+@SpringBootTest(classes = App.class)
 public class CommentServiceTest {
 
     @Autowired
